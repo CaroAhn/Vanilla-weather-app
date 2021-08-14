@@ -50,6 +50,7 @@ p {
 .current-weather,
 .current-temperature {
   text-align: center;
+  text-transform: capitalize;
 }
 
 .row {
