@@ -31,7 +31,7 @@ p {
   display: block;
   margin: 30px auto;
   padding: 40px;
-  width: 60%;
+  max-width: 600px;
   border-radius: 10px;
   box-shadow: rgb(37 39 89 / 8%) 0px 9px 9px 0;
   color: white;
@@ -92,11 +92,12 @@ p {
     height: 50px;
     line-height: 20px;
     left: -100px;
+    right: -100px;
     position: relative;
 }
 
 .weather-search .btn {
-    background: rosybrown;
+    background: blue;
     font-weight: 700;
     font-size: 16px;
     padding: 15px 0;
@@ -104,4 +105,5 @@ p {
     height: 50px;
     position: relative;
     left: -110px;
+    right: -110px;
 }
