@@ -9,9 +9,77 @@
     <title>Weather App</title>
 </head>
 <body>
-    <div class="container">
-    <h1> Hola </h1>
+<div class="container">
+    <form>
+        <div class="weather-search">
+        <div class="row">
+            <div class="col-9">
+                <input type="search" placeholder="Enter a city.." class="form-control search-input">
+            </div>
+            <div class="col-3 p-0">
+                <input type="submit" class="btn btn-primary w-100" value="Search">
+            </div>
+        </div>
+        </div>
+    </form>
+<h1 class="current-day"> 18:20 
+</br>
+Friday, June 25</h1>
+
+<h2 class="current-city" id="city"> 
+Quito </h2>
+
+<h3 class="current-weather" id="description-weather"> 
+    Mostly Cloudy ☁️  
+</h3>
+
+<h4 class="current-temperature" id="temperature"> 
+    11°C </h4>
+
+<div class="information">
+  <div class="row row-cols-2">
+    <div class="col" id="wind">Wind: 11 km/h</div>
+    <div class="col" id="humidity">Humidity: 54%</div>
+  </div>
+</div>
+
+<div class="row">
+    <div class="col-2">
+        <div class="day">Sat</div>
+        <div class="icon">⛅</div>
+    <div class="max-temp">18°C</div>
+    <div class="min-temp">7°C</div>
     </div>
-    <script src="src/app.js"></script>
+
+    <div class="col-2">
+        <div class="day">Sun</div>
+        <div class="icon">🌦</div>
+    <div class="max-temp">18°C</div>
+    <div class="min-temp">6°C</div>
+    </div>
+
+    <div class="col-2">
+        <div class="day">Mon</div>
+        <div class="icon">🌧</div>
+    <div class="max-temp">18°C</div>
+    <div class="min-temp">7°C</div>
+    </div>
+
+    <div class="col-2">
+        <div class="day">Tues</div>
+        <div class="icon">⛅</div>
+    <div class="max-temp">17°C</div>
+    <div class="min-temp">7°C</div>
+    </div>
+
+    <div class="col-2">
+        <div class="day">Wed</div>
+        <div class="icon">☀️</div>
+    <div class="max-temp">16°C</div>
+    <div class="min-temp">7°C</div>   
+</div>
+</div>
+</div>
+<script src="src/app.js"> </script>
 </body>
-</html>
+</html> 
