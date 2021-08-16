@@ -46,10 +46,12 @@ function displayTemperature(response){
     humidityElement.innerHTML = response.data.main.humidity;
     let windElement = document.querySelector("#wind");
     windElement.innerHTML = Math.round(response.data.wind.speed);
+    let iconElement = document.querySelector("#icon-principal");
+    iconElement.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
 }
 
 let apiKey = "b3d07099f6c92c0d246342a33fe4b913";
-let city = "Quito";
+let city = "Paris";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);

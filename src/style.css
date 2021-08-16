@@ -27,6 +27,12 @@ p {
   color: black;
 }
 
+img {
+    position: relative;
+    right: -450px;
+    bottom: -100px;
+}
+
 .container {
   display: block;
   margin: 30px auto;
