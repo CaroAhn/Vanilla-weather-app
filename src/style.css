@@ -30,6 +30,9 @@ img {
     bottom: -100px;
 }
 
+small {
+  color: black;
+}
 .container {
   display: block;
   margin: 30px auto;
